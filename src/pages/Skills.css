@@ -1,0 +1,55 @@
+
+
+.skill-main-content {
+  display: grid;
+  grid-template-columns: repeat(7, minmax(250px, 1fr));
+  gap: 10px;
+  margin: 20px;
+  
+}
+
+.card {
+  background-color: rgb(75, 75, 75);
+  color: white;
+  width: 100%;
+  max-width: 300px; 
+  height: 500px;
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+.card-logo {
+  width: 100%;
+  margin-bottom: 10px;
+  height: auto; 
+  margin: 0 auto 10px auto
+}
+
+.progress-bar {
+  background-color: #3f48f3;
+}
+
+h2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-size: 2rem; 
+  color: #ffffff;
+}
+
+.card-header {
+  background-color: #2c2c2c;
+  color: white;
+  font-weight: bold;
+}
+
+.card-header {
+  background-color: #2c2c2c;
+  color: white;
+  font-weight: bold;
+  font-size: 1.2rem; /* Adjust the size of the header text if necessary */
+}
+
+.card p {
+  font-size: 0.9rem; /* Adjust paragraph text size */
+}
